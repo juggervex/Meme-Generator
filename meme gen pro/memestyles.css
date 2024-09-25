@@ -1,0 +1,72 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    width: 100%;
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type="text"], button {
+    margin-top: 5px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #092092;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.meme {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.meme img {
+    max-width: 100%;
+}
+
+.meme .top-text, .meme .bottom-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.meme .top-text {
+    top: 10px;
+}
+
+.meme .bottom-text {
+    bottom: 10px;
+}
